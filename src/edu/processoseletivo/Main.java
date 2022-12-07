@@ -19,8 +19,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<Integer> expected0 = Arrays.asList(10,2,7,3,5);
-        List<Integer> actual0 = ModoAleatorio.shuffleMusicas(Arrays.asList(2,10,5,7,3));
+        List<Integer> expected0 = Arrays.asList(10,2,5,3);
+        List<Integer> actual0 = ModoAleatorio.shuffleMusicas(Arrays.asList(2,10,5,3));
         System.out.println(expected0+" "+actual0);
     }
 }
